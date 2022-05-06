@@ -9,7 +9,7 @@ This templates folder will include the following:
 - MEAN + Tailwind Template
 - MEAN + Bootstrap Template
 
-I plan to continue expanding on thsi folder as long as I keep learning & enjoying developing in different frameworks, tools, and languages.
+I plan to continue expanding on this folder as long as I keep learning & enjoying developing in different frameworks, tools, and languages.
 
 *To be updated.*
 
