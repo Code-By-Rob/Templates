@@ -16,12 +16,6 @@ I plan to continue expanding on this folder as long as I keep learning & enjoyin
 <a href="https://www.markdownguide.org/cheat-sheet/">Markdown Cheatsheet</a>
 <a href="https://docs.github.com/en/get-started/using-git/about-git">Github Docs - Using Git</a>
 
-* Winter
-    ```jsx
-    const Snow = <Snowflake amount=20/>;
-    ```
-* Frost
-
 ## The Command line git process:
 
 1. Create working directory
