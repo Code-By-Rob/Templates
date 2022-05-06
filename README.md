@@ -13,8 +13,13 @@ I plan to continue expanding on this folder as long as I keep learning & enjoyin
 
 *To be updated.*
 
-<a href="https://www.markdownguide.org/cheat-sheet/">Markdown Cheatsheet</a>
-<a href="https://docs.github.com/en/get-started/using-git/about-git">Github Docs - Using Git</a>
+<div>
+    <ul>
+        <li><a href="https://www.markdownguide.org/cheat-sheet/">Markdown Cheatsheet</a></li>
+        <li><a href="https://docs.github.com/en/get-started/using-git/about-git">Github Docs - Using Git</a></li>
+        <!-- <li></li> -->
+    </ul>
+</div>
 
 ## The Command line git process:
 
