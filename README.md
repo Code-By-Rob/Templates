@@ -13,6 +13,7 @@ I plan to continue expanding on this folder as long as I keep learning & enjoyin
 
 *To be updated.*
 
+<h3>Useful Resources:</h3>
 <div>
     <ul>
         <li><a href="https://www.markdownguide.org/cheat-sheet/">Markdown Cheatsheet</a></li>
