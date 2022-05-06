@@ -9,3 +9,28 @@ This templates folder will include the following:
 I plan to continue expanding on thsi folder as long as I keep learning & enjoying developing in different frameworks, tools, and languages.
 
 *To be updated.*
+
+## The Command line git process:
+
+1. Create working directory
+    - ```mkdir "New Directory"```
+    - ```cd "New Directory"```
+    - ```touch example-file.txt```
+2. ```git init```
+    - To see the files use 'ls -a'
+    - Check to see if there is a .git file present in the working directory.
+3. ```git commit -m "First Commit - 'Actions'"```
+4. ```git branch -M main```
+5. ```git remote add origin https://github.com/Username/Repository```
+    - Replace username with your github username
+    - Replace Repository with the repository you have created.
+6. ```git push -u origin main```
+
+### Common command structures & meaning:
+
+- ```git add . && git commit -m "X Commit - Actions" && git push```
+    - Used to add all files to the staging area, add a message to the commit, and push to the github repository.
+- ```git status```
+    - Used to showcase branch & which files aren't added or are new.
+- ```git log```
+    - Used to see the previous commits.
