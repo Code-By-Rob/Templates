@@ -12,10 +12,6 @@ Create a backend folder
 ```sh
 mkdir backend
 ```
-Create a Frontend folder
-
-```sh
-mdir frontend
 
 Create the React files in the frontend folder
 
@@ -26,7 +22,7 @@ npx create-react-app frontend
 Leave this folder after completion and enter the backend folder
 
 ```sh
-cd ../backend
+cd backend
 ```
 
 Initialise the backend file
@@ -37,7 +33,8 @@ npm init
 
 *Answer all of those questions.*
 
-Add the libraries // tools you need.
+Add the libraries // tools you need. 
+Here is my suggestion.
 
 ```sh
 npm i express mongoose dotenv
@@ -74,19 +71,52 @@ Create the server file.
 touch app.js || server.js
 ```
 
+While you are in that folder, create the .env file
+
+```sh
+touch .env
+```
+
+the .env file is where you will add any keys or secrets you want stored safely away from prying eyes.
+
 Here is the some basic server.js || app.js code to get started.
 
 ```js
+// Third-Party Libraries & Tools
 const express = require('express');
+const mongoose = require('mongoose');
+
 require('dotenv').config();
 
+// Anything Server Related
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Express plugins
+app.use(express.json());
+
+// Connect to MongoDB Database
+// process.env.MONGODB_KEY === dotenv path || mongodb://localhost:27017/mern-basic-template-database
+mongoose.connect(process.env.MONGODB_KEY, { // Note: You can change the string after the '/' to whatever suites you.
+    useNewUrlParser: true, 
+	useCreateIndex: true,
+	useUnifiedTopology: true,
+	useFindAndModify: true
+})
+.then(() => {
+    console.log('CONNECTION OPEN!');
+})
+.catch(err => {
+    console.log('CONNECTION ERROR!')
+    console.log(err);
+})
+
+// Application Routes
 app.get('/', (req, res) => {
     res.send('Hello World!');
 })
 
+// Opening the port
 app.listen(PORT, () => {
     console.log(`APP IS LISTENING ON PORT ${PORT}!`);
 })

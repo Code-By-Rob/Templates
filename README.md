@@ -2,12 +2,17 @@
     <h1>Welcome to my Templates folder <span><img src="https://camo.githubusercontent.com/e8e7b06ecf583bc040eb60e44eb5b8e0ecc5421320a92929ce21522dbc34c891/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6876524a434c467a6361737252346961377a2f67697068792e676966" width="40" height="40"></span></h1>
 </div>
 
-This templates folder will include the following:
-
-- MERN + Tailwind Template
-- MERN + Bootstrap Template
-- MEAN + Tailwind Template
-- MEAN + Bootstrap Template
+<h3>This templates folder will include the following:</h3>
+<div>
+    <ul>
+        <li><a href="https://github.com/Code-By-Rob/Templates/tree/main/MEAN-Bootstrap">MEAN + Bootstrap Template</a></li>
+        <li><a href="https://github.com/Code-By-Rob/Templates/tree/main/MEAN-Tailwind">MEAN + Tailwind Template</a></li>
+        <li><a href="https://github.com/Code-By-Rob/Templates/tree/main/MERN-Bootstrap">MERN + Bootstrap Template</a></li>
+        <li><a href="https://github.com/Code-By-Rob/Templates/tree/main/MERN-Tailwind">MERN + Tailwind Template</a></li>
+        <li><a href="https://github.com/Code-By-Rob/Templates/tree/main/MERN">MERN Basic Template</a></li>
+        <!-- <li><a href="LinkToFile">Link</a></li> -->
+    </ul>
+</div>
 
 I plan to continue expanding on this folder as long as I keep learning & enjoying developing in different frameworks, tools, and languages.
 
@@ -18,6 +23,7 @@ I plan to continue expanding on this folder as long as I keep learning & enjoyin
     <ul>
         <li><a href="https://www.markdownguide.org/cheat-sheet/">Markdown Cheatsheet</a></li>
         <li><a href="https://docs.github.com/en/get-started/using-git/about-git">Github Docs - Using Git</a></li>
+        <li>sudo i -g nodemon</li>
         <!-- <li></li> -->
     </ul>
 </div>
