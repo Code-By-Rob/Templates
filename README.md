@@ -1,4 +1,7 @@
-# Welcome to my Templates folder
+<div align="center">
+    <h1>Welcome to my Templates folder</h1><span><img src="https://camo.githubusercontent.com/e8e7b06ecf583bc040eb60e44eb5b8e0ecc5421320a92929ce21522dbc34c891/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6876524a434c467a6361737252346961377a2f67697068792e676966" width="40" height="40"></span>
+</div>
+
 This templates folder will include the following:
 
 - MERN + Tailwind Template
@@ -11,6 +14,7 @@ I plan to continue expanding on thsi folder as long as I keep learning & enjoyin
 *To be updated.*
 
 <a href="https://www.markdownguide.org/cheat-sheet/">Markdown Cheatsheet</a>
+<a href="https://docs.github.com/en/get-started/using-git/about-git">Github Docs - Using Git</a>
 
 ## The Command line git process:
 
@@ -51,9 +55,15 @@ git push -u origin main
 
 ### Common command structures & meaning:
 
-- ```git add . && git commit -m "X Commit - Actions" && git push```
-    - Used to add all files to the staging area, add a message to the commit, and push to the github repository.
-- ```git status```
-    - Used to showcase branch & which files aren't added or are new.
-- ```git log```
-    - Used to see the previous commits.
+- Used to add all files to the staging area, add a message to the commit, and push to the github repository.
+```sh
+git add . && git commit -m "X Commit - Actions" && git push
+```
+- Used to showcase branch & which files aren't added or are new.
+```sh
+git status
+```
+- Used to see the previous commits.
+```sh
+git log
+```
