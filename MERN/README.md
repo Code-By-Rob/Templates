@@ -43,6 +43,8 @@ Add the libraries // tools you need.
 npm i express mongoose dotenv
 ```
 
+---
+
 <h3>Here is a list of other useful libraries & their uses.</h3>
 <div>
     <ul>
@@ -63,6 +65,8 @@ npm i express mongoose dotenv
         <!-- <li></li> -->
     </ul>
 </div>
+
+---
 
 Create the server file.
 
