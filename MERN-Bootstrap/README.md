@@ -135,7 +135,7 @@ cd frontned
 ```
 
 Inside the frontend folder you can write the npm command to install bootstrap 5.
-We're installing this package from [npmjs bootstrap] (https://www.npmjs.com/package/bootstrap/v/5.0.1)
+We're installing this package from [npmjs bootstrap](https://www.npmjs.com/package/bootstrap/v/5.0.1)
 
 ```sh
 npm i bootstrap@5.0.1
@@ -159,4 +159,4 @@ After doing all of the above, you are ready to use your MERN stack with Bootstra
 
 ## The Bootstrap Components
 
-[Link to Bootstrap UI Snippets] (https://getbootstrap.com/docs/5.1/examples/)
+[Link to Bootstrap UI Snippets](https://getbootstrap.com/docs/5.1/examples/)
