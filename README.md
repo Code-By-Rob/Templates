@@ -23,8 +23,9 @@ I plan to continue expanding on this folder as long as I keep learning & enjoyin
     <ul>
         <li><a href="https://www.markdownguide.org/cheat-sheet/">Markdown Cheatsheet</a></li>
         <li><a href="https://docs.github.com/en/get-started/using-git/about-git">Github Docs - Using Git</a></li>
-        <li>sudo i -g nodemon</li>
-        <!-- <li></li> -->
+        <li><a href="https://github.com/airbnb/javascript/tree/master/react">Airbnb React Best Practises</a></li>
+        <li><p>sudo i -g nodemon</p><p>Used by Node to restart the server on saving files related to the server.</p></li>
+        <!-- <li><a href="LinkToFile">LinkTitle</a></li> -->
     </ul>
 </div>
 

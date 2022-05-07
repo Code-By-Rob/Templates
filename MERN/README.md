@@ -121,3 +121,25 @@ app.listen(PORT, () => {
     console.log(`APP IS LISTENING ON PORT ${PORT}!`);
 })
 ```
+
+## Backend Code
+
+Since we're using MongoDB, we need models for our data to follow.
+
+Create a models directory like so (make sure you are in the backend folder)
+
+```sh
+mkdir models
+```
+
+There we can create any models we would like (e.g., User)
+
+```sh
+touch user.model.js
+```
+
+Considering we may want full CRUD operations, we should create a folder called 'routes' to handle these in the backend directory.
+
+```sh
+touch user.routes.js
+```
